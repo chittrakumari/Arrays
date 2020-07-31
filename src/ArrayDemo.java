@@ -24,6 +24,7 @@ public class ArrayDemo{
         System.out.println("Enter 5 numbers");
         for(int i=0;i<arr.length;i++)
             arr[i]=sc.nextInt();
+
         //printing array after user input
         for(int i=0;i<arr.length;i++)
             System.out.print(arr[i]+" ");

@@ -9,7 +9,7 @@ public class SumOfAllElements {
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter number of elements in the array");
         int n=obj.nextInt();
-
+        //intializing and declaring  an array
         int[] arr=new int[n];
 
         //taking user input and adding the array elements
@@ -20,7 +20,7 @@ public class SumOfAllElements {
             arr[i]=obj.nextInt();
             s=s+arr[i];
         }
-        
+        //Output
         System.out.println("Sum of elements in the array: " + s);
         obj.close();
     }

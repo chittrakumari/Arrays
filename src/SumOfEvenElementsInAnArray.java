@@ -1,4 +1,5 @@
 
+
 /*
 Create an application to print sum of all the even elements
 present in the given array.
@@ -19,6 +20,7 @@ public class SumOfEvenElementsInAnArray {
                 s = s + arr[i];
             }
         }
+        //Output
         System.out.println("Sum of elements in the array: " + s);
         obj.close();
     }
